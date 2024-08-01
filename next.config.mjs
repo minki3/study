@@ -1,4 +1,14 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        //"https://cdn2.thedogapi.com/"
+        protocol: 'https',
+        hostname: 'cdn2.thedogapi.com',
+      },
+    ],
+  },
+}
 
-export default nextConfig;
+export default nextConfig
