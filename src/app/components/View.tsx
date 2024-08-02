@@ -8,6 +8,7 @@ export default function View() {
   const toggleContribution = () => {
     setIsConributionsView((prev) => !prev)
   }
+  console.log(1)
   return (
     <div className=" basis-1/2 flex flex-col items-center h-[100vh]">
       <div
