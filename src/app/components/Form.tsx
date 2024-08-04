@@ -2,7 +2,7 @@ import CustomInput from '@/app/components/CustomInput'
 import HashTagsInput from '@/app/components/HashTagsInput'
 import ContributionsInput from '@/app/components/ContributionsInput'
 import DiscriptionsInput from '@/app/components/DiscriptionsInput'
-import { dataSchemaType } from '@/app/form/page'
+import { dataSchemaType } from '@/app/types/types'
 import { useFieldArray, useFormContext } from 'react-hook-form'
 import ImageUpload from '@/app/components/ImageUpload'
 

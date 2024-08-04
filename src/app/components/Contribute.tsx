@@ -1,4 +1,4 @@
-import { dataSchema, dataSchemaType } from '@/app/form/page'
+import { dataSchemaType, dataSchema } from '@/app/types/types'
 import { useState } from 'react'
 import { useFormContext } from 'react-hook-form'
 

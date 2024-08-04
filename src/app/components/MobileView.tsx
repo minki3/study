@@ -1,5 +1,5 @@
 import { useFormContext, useWatch } from 'react-hook-form'
-import { dataSchemaType } from '@/app/form/page'
+import { dataSchemaType } from '@/app/types/types'
 import { useEffect } from 'react'
 import focus from '@/app/hook/focusHook'
 
