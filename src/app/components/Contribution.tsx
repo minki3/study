@@ -2,7 +2,7 @@ import CustomInput from '@/app/components/CustomInput'
 import RoleSubmit from '@/app/components/RoleSubmit'
 import Contribute from '@/app/components/Contribute'
 import { UseFormRegister } from 'react-hook-form'
-import { dataSchemaType } from '@/app/form/page'
+import { dataSchemaType } from '@/app/types/types'
 import { useState } from 'react'
 
 interface Props {

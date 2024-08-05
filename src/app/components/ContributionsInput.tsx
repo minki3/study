@@ -1,5 +1,5 @@
 import { useFormContext, useFieldArray } from 'react-hook-form'
-import { dataSchemaType } from '@/app/form/page'
+import { dataSchemaType } from '@/app/types/types'
 import Contribution from '@/app/components/Contribution'
 
 export default function ContributionsInput() {

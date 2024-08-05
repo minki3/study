@@ -1,5 +1,5 @@
 import { useFormContext, useWatch } from 'react-hook-form'
-import { dataSchemaType } from '@/app/form/page'
+import { dataSchemaType } from '@/app/types/types'
 
 export default function ContributionView() {
   const { control } = useFormContext<dataSchemaType>()
