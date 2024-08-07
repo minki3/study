@@ -1,6 +1,6 @@
 'use client'
 import { useInfiniteQuery, useQuery } from '@tanstack/react-query'
-import { getDogs } from '@/app/api/api'
+import { getDogs } from '@/app/components/api'
 import fetchDog from '@/app/hook/fetchDogs'
 import { useIntersectionObserver } from '@/app/hook/InfinityScrollHook'
 import DogComponents from '@/app/components/infinityScroll/DogComponents'

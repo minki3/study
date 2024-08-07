@@ -1,6 +1,6 @@
 'use client'
 
-import { getAnimal, getDogs } from '@/app/api/api'
+import { getAnimal, getDogs } from '@/app/components/api'
 import Posts from '@/app/components/Posts'
 import CustomHook from '@/app/hook/customHook'
 import { useQuery } from '@tanstack/react-query'

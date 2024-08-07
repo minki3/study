@@ -8,7 +8,7 @@ import ImageUpload from '@/app/components/ImageUpload'
 
 export default function Form() {
   const { register, control, handleSubmit } = useFormContext<dataSchemaType>()
-  const { fields, append } = useFieldArray({
+  const { fields, append, move } = useFieldArray({
     control,
     name: `filed`,
   })

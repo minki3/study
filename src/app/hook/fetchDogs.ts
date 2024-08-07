@@ -1,4 +1,4 @@
-import { getDogs } from '@/app/api/api'
+import { getDogs } from '@/app/components/api'
 import { useQuery } from '@tanstack/react-query'
 interface Props {}
 
