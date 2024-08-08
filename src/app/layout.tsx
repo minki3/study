@@ -4,6 +4,7 @@ import './globals.css'
 import Provider from '@/app/provider/Provider'
 import Nav from '@/app/components/Nav'
 import Footer from '@/app/components/footer'
+import IsSessionProvider from '@/app/provider/IsSessionProvider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,11 +21,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} w-full max-w-[1680px] mx-auto`}>
-        <Provider>
-          <Nav />
-          <main>{children}</main>
-          <Footer />
-        </Provider>
+        <IsSessionProvider>
+          <Provider>
+            <Nav />
+            <main>{children}</main>
+            <Footer />
+          </Provider>
+        </IsSessionProvider>
       </body>
     </html>
   )

@@ -3,7 +3,7 @@ import {
   HydrationBoundary,
   QueryClient,
 } from '@tanstack/react-query'
-import { getAnimal, getDogs } from '@/app/api/api'
+import { getAnimal, getDogs } from '@/app/components/api'
 
 export default async function Layout({
   children,
